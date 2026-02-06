@@ -1,0 +1,503 @@
+@media (max-width: 1170px){
+	.wholesale-motor_title h1 {
+    	font-size: 39px;
+    	letter-spacing: 3.4px;
+	}
+	.wholesale-motor_main {
+	    height: 720px;
+	}
+	.wholesale-motor_content a {
+    	left: 33.5%;
+    	top: 13px;
+	}
+	.sidenav ul>li {
+	    margin: 0 10px;
+	}
+	.products-sell_block {
+	    margin: 25px 0px;
+	}
+	.products-sell_box {
+	    max-width: 446px;
+	}
+	.products-sell_img {
+    max-width: 435px;
+}
+	.products-sell_box:nth-child(even) .products-pho {
+	    top: 11px;
+	    left: -22px;
+	    max-width: 450px;
+	}
+	.popular-lubricants_info h2 {
+    font-size: 32px;
+}
+.popular-lubricants_info {
+    max-width: 467px;
+}
+.popular-lubricants_photo {
+    max-width: 462px;
+}
+.block-about-text {
+    max-width: 527px;
+}
+.block-about-text p {
+    font-size: 18px;
+}
+.block-about-text strong {
+    font-size: 22px;
+}
+
+.experts-experienced h2 {
+    font-size: 24px;
+}
+.working-with_box {
+    width: 33%;
+}
+.manufacturers-brands_text p {
+    font-size: 18px;
+}
+.manufacturers-brands_box p {
+    font-size: 16px;
+}
+.working-with_main>h2 {
+    font-size: 32px;
+}
+}
+
+
+
+@media (max-width: 992px){
+	.header-text-street{
+		display: none;
+	}
+	.header-menu{
+		display: block;
+	}
+	.header-call{
+		margin-right: 50px;
+	}
+    .menu-width{
+        width: 0%!important;
+        transition: all 0.5s ease 0s!important;
+    }
+    .transition-menu{
+        width: 100%!important;
+        transition: all 0.5s ease 0s!important;
+    }
+  	
+    .open-menu span:nth-child(2), .open-menu span:nth-child(3) {
+        top: 27px;
+
+    }
+    .open-menu span:last-child {
+        top: 18px;
+    }
+    .open-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        position: absolute;
+
+        right: 0;
+        z-index: 999;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .menu-cnt {
+        margin: 0;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        padding: 60px 0 30px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background-color: rgb(255,255,255);
+    }
+    .menu-cnt ul {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    .sidenav>ul>li {
+        padding: 3px 0;
+        transition: 0.2s;
+        opacity: 0;
+        height: auto;
+        display: block;
+        text-align: right;
+        margin: 6px 0;
+
+    }
+    .sidenav>ul>li a svg path{
+    	fill: #00B259;
+    }
+    .header-main {
+    	position: relative;
+	}
+	.wholesale-motor_title h1 {
+	    font-size: 30px;
+	    letter-spacing: 3.4px;
+	}
+	.wholesale-motor_title p {
+	    font-size: 18px;
+	}
+	.wholesale-motor_content a {
+	    left: 30%;
+	    top: 13px;
+	        width: 248px;
+	    height: 46px;
+	}
+	.wholesale-motor_menu ul li {
+	    margin: 0 26px;
+	}
+	.wholesale-motor_main {
+	    height: 600px;
+	}
+	.sidenav>ul>li .header-text-street{
+		display: flex;
+		align-items: center;
+	}
+	.sidenav>ul>li .header-text-street p{
+		color: #53565A;
+	}
+	.header-text-street:first-child{
+		margin: 0;
+	}
+	.header-call{
+		display: none;
+	}
+	.wholesale-motor_menu{
+		display: none;
+	}
+	.products-sell_block{
+		flex-direction: column;
+		align-items: center;
+	}
+	.products-sell h2 {
+	    font-size: 32px;
+	}
+	.products-sell {
+	    padding: 30px 0;
+	}
+	.manufacturers-brands_main h2 {
+	    font-size: 32px;
+	}
+	.manufacturers-brands_text p {
+    font-size: 18px;
+}
+.block-about-us h2 {
+    font-size: 32px;
+}
+
+.popular-lubricants_photo{
+	display: none;
+}
+.popular-lubricants {
+    margin: 50px 0;
+    justify-content: center;
+}
+.block-about-block{
+	flex-direction: column-reverse;
+	align-items: center;
+}
+.block-about-text {
+    max-width: 587px;
+    margin-top: 75px;
+}
+.block-about-text p {
+    font-size: 16px;
+    text-align: center;
+}
+.block-about-text strong {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.popular-lubricants_info p {
+    font-family: 'SourceSansPro-Regular';
+}
+.working-with_block {
+    justify-content: center;
+    margin: 0 ;
+}
+.working-with_box {
+    width: 100%;
+    max-width: 300px;
+}
+.popular-lubricants_info h2 {
+    font-size: 30px;
+}
+.our-contacts_text {
+	margin-bottom: 20px;
+    padding: 23px 37px;
+}
+.our-contacts_block{
+	flex-direction: column;
+	align-items: center;
+    margin-left: 0;
+
+}
+.our-contacts {
+    background: unset;
+    margin-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.contact-map {
+    height: 415px;
+}
+.manufacturers-brands_text{
+	display: none;
+}
+
+.manufacturers-brands_cnt{
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.manufacturers-brands__too{
+	flex-direction: row-reverse!important;
+}
+.manufacturers-brands_box {
+    width: 100%;
+    height: 340px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.manufacturers-brands_cnt .manufacturers-brands_box:nth-child(odd):after {
+    top: auto;
+    right: 46%;
+    bottom: -52px;
+    width: 25px;
+    height: 78px;
+    transform: rotate(90deg);
+}
+.manufacturers-brands_box p {
+    font-size: 17px;
+}
+.manufacturers-brands_box {
+    width: 100%;
+    height: 295px;
+}
+.manufacturers-brands__too .manufacturers-brands_box:nth-child(even):after {
+    top: -52px;
+    left: auto;
+    width: 25px;
+    height: 78px;
+    z-index: 99;
+    transform: rotate(-90deg);
+}
+
+.manufacturers-brands_item .slick-dots {
+    bottom: 13px;
+}
+.slick-dots li.slick-active button {
+    background-color: #00B259;
+    color: #00B259;
+}
+
+}
+
+
+@media (max-width: 768px){
+	.wholesale-motor_title h1 {
+	    font-size: 24px;
+	    letter-spacing: 2.6px;
+	}
+	.wholesale-motor_title p {
+    font-size: 16px;
+}
+.wholesale-motor_content a {
+    left: 23%;
+    top: 13px;
+}
+.wholesale-motor_main {
+    height: 500px;
+}
+.products-sell_text p {
+    font-size: 16px;
+    min-height: 157px;
+}
+.popular-lubricants_info .wholesale-motor_content a {
+    left: -8%;
+    top: 12px;
+}
+.popular-lubricants_info .wholesale-motor_cirk:before {
+    top: -11px;
+    left: 10px;
+    transform: rotate(20deg);
+}
+.popular-lubricants_info .wholesale-motor_cirk:after {
+    right: 15px;
+    transform: rotate(27deg);
+}
+
+.block-about-fon{
+	display: none;
+}
+
+.manufacturers-brands_text{
+	display: none;
+}
+.manufacturers-brands__too{
+	display: none;
+}
+.our-contacts_text h2 {
+    font-size: 32px;
+}
+.popular-lubricants_info .wholesale-motor_content a {
+	font-size: 18px;
+}
+.popular-lubricants_info h2 {
+    font-size: 28px;
+}
+}
+
+@media (max-width: 576px){
+.header-text-street:first-child p {
+    max-width: 193px;
+    margin-left: 8px;
+    text-align: center;
+}
+.wholesale-motor_title h1 {
+    font-size: 22px;
+}
+.wholesale-motor_content a {
+    left: 2%;
+    top: 13px;
+        width: 230px;
+    height: 42px;
+}
+.wholesale-motor_cirk:before {
+    transform: rotate(26deg);
+}
+.sidenav>ul>li .header-text-street{
+	align-items: flex-start;
+	padding-top: 5px;
+}
+.wholesale-motor_content {
+    position: relative;
+    max-width: 282px;
+    margin: 0 auto;
+}
+.wholesale-motor_btn {
+    width: 238px;
+}
+.products-sell h2 {
+    font-size: 24px;
+}
+.products-sell_name {
+    right: 6px;
+    width: 191px;
+    height: 39px;
+    bottom: 8px;
+}
+.products-pho {
+    top: 14px;
+    right: -12px;
+    width: 281px;
+}
+.products-sell_img {
+    height: 230px;
+}
+.products-sell_text {
+    margin-top: 25px;
+}
+.products-sell_box:nth-child(even) .products-pho {
+    top: 11px;
+    left: -12px;
+}
+.products-sell_name a {
+    font-size: 20px;
+}
+.products-sell_box:nth-child(even) .products-sell_name {
+    left: 6px;
+    bottom: 10px;
+}
+.products-bord {
+    position: relative;
+    max-width: 279px;
+    margin: 0 auto;
+}
+.popular-lubricants_info h2 {
+    font-size: 20px;
+}
+.popular-lubricants_info p {
+    font-size: 16px;
+}
+.popular-lubricants_info .wholesale-motor_content a {
+    left: -1%;
+    top: 12px;
+    max-width: 234px;
+    width: 100%;
+    height: 48px;
+}
+.popular-lubricants_info .wholesale-motor_btn {
+    max-width: 239px;
+}
+.popular-lubricants_info .wholesale-motor_cirk:before {
+    top: -11px;
+    left: 3px;
+    transform: rotate(28deg);
+}
+.popular-lubricants_info .wholesale-motor_cirk:after {
+    right: 12px;
+    transform: rotate(24deg);
+}
+.working-with_main>h2 {
+    font-size: 23px;
+}
+.working-with_info {
+    border: 0.5px solid #BAB3B3;
+    padding: 57px 19px 15px;
+    height: 290px;
+    border-radius: 5px;
+    position: relative;
+}
+.working-with_box {
+    width: 100%;
+    max-width: 280px;
+    padding: 15px;
+}
+.working-with_info:after {
+    font-size: 46px;
+}
+.experts-experienced{
+	display: none;
+}
+.popular-lubricants_info .wholesale-motor_content a {
+    font-size: 15px;
+}
+.our-contacts_text h2 {
+    font-size: 24px;
+}
+.our-contacts_text strong {
+    font-size: 17px;
+    margin-top: 14px;
+}
+.our-contacts_text p, .our-contacts_text>a {
+    font-size: 16px;
+}
+.our-contacts_call {
+	display: none;
+}
+.contact-map {
+    height: 315px;
+}
+.manufacturers-brands_box p {
+    font-size: 15px;
+}
+.manufacturers-brands_box {
+    height: 340px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+}

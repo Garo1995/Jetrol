@@ -1,0 +1,50 @@
+
+
+
+@font-face {
+    font-family: 'BebasNeue-Book';
+    src:  url('BebasNeue Book.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BebasNeue-Bold';
+    src:  url('BebasNeue Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src:  url('BebasNeue Regular.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'SourceSansPro-Black';
+    src:  url('SourceSansPro-Black.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src:  url('SourceSansPro-Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src:  url('SourceSansPro-Regular.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src:  url('SourceSansPro-Semibold.otf') format('truetype');
+
+}

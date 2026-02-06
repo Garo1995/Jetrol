@@ -1,0 +1,130 @@
+
+.our-contacts{
+	background: #00B259;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.our-contacts_block{
+	display: flex;
+	margin-left: -10px;
+	background: #fff;
+}
+.our-contacts_text{
+    max-width: 394px;
+    width: 100%;
+    border: 0.5px solid #BAB3B3;
+    box-shadow: 0 3px 6px #000;
+    padding: 34px 45px;
+    background: #fff;
+}
+.our-contacts_text h2{
+	font-size: 40px;
+	color: #000000;
+	text-align: center;
+}
+.our-contacts_text strong{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	display: block;
+    font-family: 'SourceSansPro-Regular';
+    margin-top: 20px;
+}
+.our-contacts_text p,.our-contacts_text>a{
+	font-size: 17px;
+	color: #000000;
+	text-align: center;
+    font-family: 'SourceSansPro-Regular';
+	display: block;
+			
+}
+.our-contacts_text .header-call{
+	margin: 15px auto 0;
+
+ }
+ .our-contacts_text .header-call a{
+ 	background: unset;
+	color: #000000;
+ 	width: 178px;
+ 	height: 36px;
+ 	margin: 0 auto;
+  }
+ .our-contacts_text .wholesale-motor_cirk:after {
+    right: 8px;
+    transform: rotate(26deg);
+    width: 5px;
+    height: 40px;
+}
+
+.our-contacts_text  .wholesale-motor_cirk:before {
+    height: 40px;
+}
+.contact-map{
+	max-width: 764px;
+	width: 100%;
+	height: 515px;
+}
+
+.text-footer{
+	margin-top: 22px;
+	padding: 0 20px;
+}
+.text-footer p{
+    font-family: 'SourceSansPro-Regular';
+	font-size: 15px;
+	text-align: center;
+	color: #BAB3B3;
+}
+.our-contacts_call{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 14px;
+	position: relative;
+}
+.our-contacts_call_inp{
+	clip-path: polygon(9% 0%, 99.5% 0%, 90% 100%, 0% 100%);
+	background: #00B259;
+	padding: 1px;	
+	height: 37px;
+	margin-right: -19px;
+}
+.our-contacts_call input{
+	width: 184px;
+	height: 100%;
+	padding-left: 25px;
+	background: #fff;
+	clip-path: polygon(9% 0%, 99% 0%, 90% 100%, 0% 100%);
+    font-family: 'SourceSansPro-Regular';
+    color: #BAB3B3;
+    font-size: 17px;
+}
+.our-contacts_cirk{
+
+    width: 166px;
+    height: 37px;
+    position: absolute;
+    top: -9px;
+    right: -33px;
+    border: 4px solid #00B259;
+}
+.our-contacts_btn button{
+	background: #00B259;
+	width: 166px;
+	height: 37px;
+	clip-path: polygon(10% 0%, 99% 0%, 90% 100%, 0% 100%);
+	font-size: 17px;
+	color: #fff;
+    font-family: 'BebasNeue-Regular';
+	text-transform: uppercase;	
+}
+.our-contacts_call .wholesale-motor_cirk:after {
+    right: 8px;
+    transform: rotate(24deg);
+    width: 4px;
+    height: 40px;
+}
+.our-contacts_call .wholesale-motor_cirk:before {
+    width: 4px;
+}

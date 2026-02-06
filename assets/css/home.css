@@ -1,0 +1,549 @@
+#products-sell_fon{
+	position: relative;
+}
+#products-sell_fon:before{
+	content: "";
+	background-image: url('../img/g_oilew1.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 650px;
+	width: 100%;
+	height: 886px;
+	z-index: -1;
+}
+#products-sell_fon:after{
+	content: "";
+	background-image: url('../img/g_oil1.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-width: 849px;
+	width: 100%;
+
+	height: 1131px;
+	z-index: -1;
+
+}
+
+.products-sell{
+	padding: 40px 0;
+}
+.products-sell h2{
+    font-family: 'BebasNeue-Regular';
+	font-size: 40px;
+	color: #000000;
+	line-height: 1.2;
+	text-align: center;
+}
+.products-sell_block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 25px 50px;
+}
+.products-sell_box{
+	max-width: 465px;
+	width: 100%;
+	margin-bottom: 30px;
+
+}
+.products-sell_img{
+	border: 8px solid #33C17A;
+	max-width: 444px;
+	width: 100%;
+	height: 366px;
+	position: relative;
+}
+.products-sell_name{
+	position: absolute;
+    right: 8px;
+	clip-path: polygon(0 0, 100% 0%, 100% 99%, 19% 100%);
+	background: #00B259;
+	width: 282px;
+	height: 52px;
+	bottom: 13px;
+}
+.products-sell_name a{
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	color: #fff;
+    font-family: 'BebasNeue-Regular';
+		display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.products-sell_text{
+	margin-top: 45px;
+	text-align: center;
+}
+.products-sell_text p{
+	font-size: 18px;
+	line-height: 1.3;
+	color: #000000;
+    font-family: 'SourceSansPro-Regular';
+    margin-bottom: 15px;
+    min-height: 207px;
+}
+.products-sell_text strong{
+	color: #000000;
+    font-family: 'SourceSansPro-Semibold';
+	font-size: 20px;
+
+}
+.products-sell_text a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #53565A;
+    font-family: 'BebasNeue-Regular';
+    transition: 0.2s;
+}
+.products-sell_text a svg{
+	margin-left: 3px;
+    transition: 0.2s;
+
+}
+.products-sell_text a:hover{
+	color: #00B259;
+    transition: 0.2s;
+
+}
+.products-sell_text a:hover svg path{
+	fill: #00B259;
+    transition: 0.2s;
+
+}
+
+
+.products-sell_img img{
+	width: 100%;
+}
+
+.products-bord{
+	position: relative;
+}
+.products-pho{
+	position: absolute;
+    top: 15px;
+    right: -9px;
+}
+
+.products-sell_box:nth-child(even) .products-pho {
+    position: absolute;
+    top: 15px;
+    right: auto;
+    left: -30px;
+}
+.products-sell_box:nth-child(even)  .products-sell_name {
+    right: auto;
+    left: 9px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+}
+
+.manufacturers-brands{
+	background: #000000;
+	position: relative;
+}
+.manufacturers-brands:before{
+	content: "";
+	background-image: url('../img/weqa-fon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.manufacturers-brands_main{
+	padding-top: 23px;
+	position: relative;
+	z-index: 88;
+}
+.manufacturers-brands_main h2{
+	font-size: 40px;
+    font-family: 'BebasNeue-Regular';
+	color: #fff;
+	line-height: 1.2;
+	text-align: center;
+}
+.manufacturers-brands_text{
+	border: 1px solid #00B259;
+	padding: 11px 60px 26px;
+	margin-top: 30px;
+}
+.manufacturers-brands_logo{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.manufacturers-brands_logo a{
+	font-size: 15px;
+	margin-left: 15px;
+	color: #fff;
+	line-height: 1.2;
+	max-width: 217px;
+	width: 100%;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #00B259;
+	clip-path: polygon(10% 0%, 97.5% 0%, 88% 100%, 0% 100%);
+}
+.manufacturers-brands_text p{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+    font-family: 'SourceSansPro-Regular';
+
+}
+
+.manufacturers-brands_item{
+	margin-top: 28px;
+	padding-bottom: 55px;
+	position: relative;
+	z-index: 888;
+	display: flex;
+    flex-wrap: wrap;
+}
+.manufacturers-brands_cnt, .manufacturers-brands__too {
+    display: flex;
+    width: 50%;
+}
+.manufacturers-brands_box{
+	width: 50%;
+	height: 340px;
+	padding: 25px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000;
+	position: relative;
+}
+.manufacturers-brands__too .manufacturers-brands_box:nth-child(even){
+	background: rgba(186,179,179,0.13);
+	border: 1px solid #00A853;
+}
+.manufacturers-brands__too .manufacturers-brands_box:nth-child(even):after{
+	content: "";
+    position: absolute;
+top: 39%;
+    left: -25px;
+    width: 25px;
+    height: 78px;
+    z-index: 99;
+    background-image: url(../img/Path-2123.png);
+    transform: rotate(-180deg);
+}
+.manufacturers-brands__too .manufacturers-brands_box:nth-child(odd){
+	background: #000;
+}
+.manufacturers-brands_cnt .manufacturers-brands_box:nth-child(odd){
+	border: 1px solid #00A853;
+
+
+}
+.manufacturers-brands_cnt .manufacturers-brands_box:nth-child(odd):after{
+	content: "";
+    position: absolute;
+    top: 43%;
+    right: -26px;
+    width: 25px;
+    height: 78px;
+    z-index: 99;
+    background-image: url(../img/Path-2123.png);
+    transform: rotate(0deg);
+}
+.manufacturers-brands_cnt .manufacturers-brands_box:nth-child(odd):before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(186,179,179,0.13);
+	z-index: 9999;
+
+}
+.manufacturers-brands_box p{
+	text-align: center;
+	color: #fff;
+	font-size: 17px;
+    font-family: 'SourceSansPro-Regular';
+
+}
+
+
+.popular-lubricants{
+	margin: 84px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.popular-lubricants_photo{
+	max-width: 564px;
+	width: 100%;
+}
+.popular-lubricants_photo img{
+	width: 100%;
+	height: 100%;
+}
+.popular-lubricants_info{
+	max-width: 542px;
+	width: 100%;
+	border: 0.5px solid #BAB3B3;
+	box-shadow: 0 3px 6px #000;
+	padding: 21px 12px;
+}
+.popular-lubricants_info h2	{
+	font-size: 40px;
+	color: #000000;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.popular-lubricants_info p {
+    margin: 10px 0 16px;
+    text-align: center;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 20px;
+    color: #53565A;
+}
+
+
+.popular-lubricants_info .wholesale-motor_content a {
+    max-width: 361px;
+    width: 100%;
+    height: 52px;
+    left: 10%;
+    top: 15px;
+}
+
+.popular-lubricants_info .wholesale-motor_btn {
+    max-width: 361px;
+    width: 100%;
+    height: 52px;
+}
+.popular-lubricants_info .wholesale-motor_cirk:after {
+    top: -9px;
+    right: 22px;
+    transform: rotate(34deg);
+    height: 63px;
+}
+.popular-lubricants_info .wholesale-motor_cirk:before {
+    top: -11px;
+    left: 10px;
+    transform: rotate(34deg);
+    height: 64px;
+}
+
+.block-about-fon{
+	position: relative;
+}
+.block-about-fon:before{
+	content: "";
+	background-image: url('../img/texture-pray.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 566px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.block-about-us {
+	padding: 44px 0 65px;
+	position: relative;
+	z-index: 999;
+}
+.block-about-us h2{
+	font-size: 40px;
+	color: #fff;
+	line-height: 1.3;
+	text-align: center;
+}
+.block-about-block{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.block-about-text{
+	max-width: 710px;
+	width: 100%;
+}
+.block-about-text p{
+    font-family: 'SourceSansPro-Regular';
+	font-size: 20px;
+	line-height: 1.3;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #fff;
+
+}
+.block-about-text strong{
+	display: block;
+	color: #fff;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.block-about-block .products-bord {
+    max-width: 382px;
+    width: 100%;
+    height: 396px;
+}
+.block-about-block .products-pho {
+    top: 18px;
+    right: auto;
+    left: -14px;
+}
+.block-about-block .products-bord strong{
+	margin-top: 40px;
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+
+}
+.block-about-block .products-bord p{
+    font-family: 'SourceSansPro-Regular';
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+
+#working-with_fon{
+	position: relative;
+	padding-bottom: 20px;
+}
+#working-with_fon:before{
+	content: "";
+	background-repeat: no-repeat;
+	background-image: url('../img/we.png');
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 919px;
+	z-index: -1;
+}
+
+.working-with_main{
+	margin-top: 41px;
+}
+.working-with_main h2{
+	font-size: 40px;
+	color: #000000;
+	text-align: center;
+
+}
+
+.working-with_block{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+    counter-reset: my-sec-counter;
+}
+.working-with_box{
+	width: 25%;
+	padding: 25px;
+}
+.working-with_info{
+	border: 0.5px solid #BAB3B3;
+	padding: 73px 19px 20px;
+	height: 317px;
+	border-radius: 5px;
+	position: relative;
+}
+.working-with_info:before{
+	content: "";
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 7px;
+	left: 0;
+	width: 207px;
+	height: 261px;
+}
+.working-with_box:nth-child(1)	.working-with_info:before{
+	background-image: url('../img/Mask-Group6.png');
+
+}
+.working-with_box:nth-child(2) .working-with_info:before{
+	background-image: url('../img/MaskGroup5.png');
+	bottom: 0;
+	top: auto;
+	left: auto;
+	right: 0;
+	width: 183px;
+	height: 232px;
+}
+.working-with_box:nth-child(3) .working-with_info:before{
+	background-image: url('../img/Mask-Group3.png');
+	
+}
+.working-with_box:nth-child(4) .working-with_info:before{
+	background-image: url('../img/Mask-Group1.png');
+	bottom: 0;
+	top: auto;
+	left: auto;
+	right: 0;
+	width: 229px;
+	height: 164px;
+}
+.working-with_info:after {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter, decimal-leading-zero);
+    z-index: 99;
+    font-size: 55px;
+    color: #00B259;
+    font-family: 'SourceSansPro-Bold';
+
+}
+.working-with_box:nth-child(even) .working-with_info:after{
+	right: auto;
+	left: 5px;
+}
+
+.working-with_about strong{
+	font-size: 25px;
+    font-family: 'BebasNeue-Bold';
+	color: #000000;
+	text-align: center;
+	display: block;
+}
+.working-with_about p{
+	font-size: 16px;
+	color: #000000;
+    font-family: 'SourceSansPro-Regular';
+	line-height: 1.2;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.experts-experienced{
+	background: #00B259;
+	max-width: 1137px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 14px 5px;
+	    clip-path: polygon(5% 0%, 99.5% 0%, 94% 100%, 0% 100%);
+
+}
+.experts-experienced h2{
+	text-align: center;
+	font-size: 25px;
+
+	color: #fff;
+}
